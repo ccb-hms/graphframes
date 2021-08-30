@@ -17,7 +17,7 @@ spark_dependencies <- function(spark_version, scala_version, ...) {
         scala_version
       )
     ),
-    repositories = c("https://repos.spark-packages.org")
+    repositories = "https://repos.spark-packages.org"
   )
 }
 
